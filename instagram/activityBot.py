@@ -1,0 +1,2 @@
+clas IgActivityBot():
+	pass

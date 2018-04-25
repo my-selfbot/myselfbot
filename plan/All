@@ -1,0 +1,42 @@
+O que posso saber de:
+	Uma Conta:
+		* INFO
+			( ) Quem Segue -> user.list_followings()
+			( ) Porquem é seguido -> user.list_followers()
+		* STATS
+			( ) N. Followers
+			( ) N. Following
+			( ) N. Posts
+		* IA
+			( ) TYPE [Span, Fake, Selegram, Inativa, Influencer]
+			( ) Tem External Account [youtube, facebook, ]
+			( ) Tem Telefone
+			( ) Faz Parceria
+			( ) Tem E-mail
+	Um Post:
+		* INFO
+			( ) Local
+			( ) Tags
+			( ) Text
+			( ) Type [Photo, Movie, Slide]
+			( ) Users
+		* STATS
+			( ) N. Likes
+			( ) N. Comments
+	Um Comentario:
+		* INFO
+			( ) Tags
+			( ) Text
+			( ) Users
+		* STATS
+			( ) N. Likes
+	Uma HashTag:
+		* INFO
+			( ) Relacionadas
+			( ) IsGeo
+		* STATS
+			( ) N. Posts
+	Um Local:
+		* INFO
+		* STATS
+			( ) N. Posts

@@ -1,0 +1,74 @@
+LISTAR
+    POSTAGENS
+        Listar Minhas Postagens 
+            type = [Liked | Saved | Posted ]
+        Listar Postagens
+            type = [Collection | Location | Tag | User ]
+        *****  Listas de Postagens *****
+            Listar Comentarios
+                id = [MediaID]
+            Listar Likers
+                id = [MediaID]
+    RELATIONSHIP
+        Listar
+            type = [Followers | Followings]
+        Listar Meus Relacionamentos
+            type = [Invited | Blocked | Pending]
+INTERAGIR 
+    POSTAGENS
+        Like
+            type = [Comment | Media]
+        Unlike
+            type = [Comment | Media]
+        Comentar *** Gostaria de ser ja com inteligencia mas pode ser bem basica (tenho dois modelos pronto)
+        
+    RELATIONSHIP
+        Follow
+            type = [Tag | User]
+        Unfollow
+            type = [Tag | User]
+        Enviar Mensagem
+
+MONITORAR
+    Notificacoes
+        usuario segiu minha conta
+        usuario curtiu minha postagem
+        usuario comentou minha postagem
+        usuario me marcou em um post
+        usuario me marcou em um comentario
+    Conta
+        quem deixou de seguir
+        quem segiu
+        quem curtiu 
+        quem comentou
+
+Novos Blocos
+    Follower A
+        Entrou - entre I e F
+        Saiu- entre I e F
+    Following A
+        Entrou - entre I e F
+        Saiu- entre I e F
+    ----------------------------------
+    Extrair [Tags, Palavras, @Usuarios, Locais, (un)Likers, (un)Commenters]
+    Dos Posts de A
+        data entre I e F
+        nLikes entre I e F
+        nComments entre I e F
+        com [tag]
+        com [palavra]
+        com [usuario]
+        com [local]
+    ----------------------------------
+    Dos Seguidos
+        nLikes entre I e F
+        nComments entre I e F
+        (not)Follow
+    Dos Contactados (envie mensagem)
+        nLikes entre I e F
+        nComments entre I e F
+        (not)Follow
+    Dos Relacionados (curti e/ou comentei algo)
+        nLikes entre I e F
+        nComments entre I e F
+        (not)Follow

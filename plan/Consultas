@@ -1,0 +1,42 @@
+Pega lista de Followers
+	Usuario existe na base
+		NAO
+			Cria Registro Na TB_user
+		SIM
+			Usuario Ja tem Relacionamento com Profile
+				SIM
+
+				NAO
+					Cria Registro Na TB_relationship
+	Lista Anterior - Lista Atual
+		Marcar como data de unfollow HJ
+============================================================
+Listar Likers in Post
+	Usuario existe na base
+		NAO
+			Cria Registro Na TB_user
+		SIM
+			Usuario Ja tem Relacionamento com Profile
+				SIM
+					Atualiza ultima interacao se data na base for inferior
+				NAO
+					Cria Registro Na TB_relationship
+					Inserir HJ como dade de ultima interacao
+	Inseri Lista de Likers Para User Post 
+=============================================================
+Listar Commenters in Post
+	Usuario existe na base
+		NAO
+			Cria Registro Na TB_user
+		SIM
+			Usuario Ja tem Relacionamento com Profile
+				SIM
+					Atualiza ultima interacao se data na base for inferior
+				NAO
+					Cria Registro Na TB_relationship
+					Inserir HJ como data de ultima interacao
+	Inseri Lista de Commenters Para User Post
+=============================================================
+
+Pegar usuarios que (L & C) em uma certa Postagem (tem uma tag, em um lugar)
+	marcar em um comentariio em postagem similar

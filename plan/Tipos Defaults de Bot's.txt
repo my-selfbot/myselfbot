@@ -1,0 +1,42 @@
+Tipos Defaults de Bot's
+ANALYST-BOT - Salva nos banco informaçoes - Ira gerar relatorios e permitir exportar dados
+	Bot 01 -
+		List Follower User by account
+		List Following User by account
+	Bot 02 -
+		Extrair Info Posts
+			Tags Usadas
+			Usuarios referenciados
+			Locais
+			Likers
+			Commenters
+WATCH-BOT - Salva no banco informacoes
+	Notificacoes
+		Quem comentou meu post
+		Quem curtiu meu post
+		Quem me seguiu
+		Quem me marcou em um post
+		Quem me marcou em um comentatio
+
+LIKE-BOT -
+	Quem comentou em meus post
+	Quem me segue
+	Quem me marcou em uma comentario
+	Procurar uma TAG
+		curtir algumas postagens
+	Procurar um Lugar
+		curtir algumas postagens
+
+FOLLOW-BOT - Buscas no banco
+	Quem curtiu meu post e nao me segue
+	Quem comentou meu post e nao me segue
+	Quem foi marcado em meu post
+	Quem segue uma determinada comentario
+
+CLEANING-BOT
+	Quem foi convidado a mais de X dias e näo interagiu com a pagina e näo esteja em uma "white list"
+
+WRITER-BOT
+	Comentar em postagens que fui mencionado
+	Enviar mensagem de agradecimento por ter me seguido
+	Enviar mensagem perguntando o motivo de ter deixado de me seguir

@@ -1,0 +1,3 @@
+[submodule "instagram_private_api"]
+	path = instagram_private_api
+	url = https://github.com/my-selfbot/instagram_private_api.git
